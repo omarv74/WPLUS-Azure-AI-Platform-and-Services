@@ -25,7 +25,7 @@ You are an AI developer responsible for evaluating AI applications in production
 - **azure-ai-projects** package version 1.1.0b2 or greater (`azure-ai-projects>=1.1.0b2`)
 - **Azure AI User role** assigned to your account for the Azure AI Foundry project
   - See [Azure AI Foundry RBAC documentation](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/rbac-azure-ai-foundry?pivots=fdp-project) for more details on role assignments
-- `.env` file configured with PROJECT_CONNECTION_STRING and MODEL_DEPLOYMENT_NAME
+- `.env` file configured with AI_FOUNDRY_PROJECT_ENDPOINT and MODEL_DEPLOYMENT_NAME
 - Azure AI Foundry project already provisioned
 
 ## Tasks
@@ -101,7 +101,7 @@ Cloud evaluation advantages:
    - Review evaluation results and metrics
 
 3. **Troubleshooting**:
-   - Verify your PROJECT_CONNECTION_STRING is correctly set
+   - Verify your AI_FOUNDRY_PROJECT_ENDPOINT is correctly set
    - Check Azure AI User role permissions for evaluation operations
    - Review authentication error messages for guidance
 
