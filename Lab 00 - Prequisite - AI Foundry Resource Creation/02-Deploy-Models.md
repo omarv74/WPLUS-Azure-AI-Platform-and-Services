@@ -7,8 +7,8 @@ This lab walks you through the steps to deploy various models into the **Azure A
 ## Objectives 
 In this lab we will deploy the following models
 - text-embedding-3-large
-- GPT 4-o
-- GPT 4-o mini	
+- GPT 4o
+- GPT 4o-mini	
 
 
 ## Estimated Time 

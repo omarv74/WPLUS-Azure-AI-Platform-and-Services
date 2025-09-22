@@ -53,13 +53,13 @@ Go to [https://portal.azure.com](https://portal.azure.com) and sign in with your
 ![Fill in Details](images/airg.png) 
 - Give a name for the Azure AI Foundry resource (eg ai-foundry-53439517).
 - Choose a Region (eg East US 2)
-- Give Deafult project name (eg deafultProject)
+- Give Default project name (eg deafultProject)
 - Click **Next** button. Use this as a reference image for details but choose the existing resource group and fill in the rest of the details
 
 ![Fill in Details](images/fill_in_details_for_ai_foundry_resource.png)
 
 
-- For this lab, Keep deafults for subsequents tabs (Network, Identity, Encryption, Tags) and Click **Next** button until **Review + submit**
+- For this lab, Keep defaults for subsequents tabs (Network, Identity, Encryption, Tags) and Click **Next** button until **Review + submit**
 - Click **Create** button
 - In less than 2 minutes your deployment should complete
 

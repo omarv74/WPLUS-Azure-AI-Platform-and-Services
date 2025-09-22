@@ -294,7 +294,7 @@ This Logic App receives text, detects the language, and outputs the text in Engl
 
 ![Alt text](./Images/AddAnAction.png)
 
-17. Search for _Azure Language_ and then click **See more**.
+17. Search for _Azure Language_ and then click **See more**.(This step is to understand what is available). Once reviewed, go back to main search and follow the steps below.
 18. Search for _Microsoft Translator V3_ and then click **See more**.
 19. Select **Translate Text**. Create the connection using the same API Key and Resource name (not the full Endpoint) from Foundry.
 
@@ -374,25 +374,6 @@ You work for Contoso, a multinational e-commerce company that receives thousands
 You will create **2 agents** using Azure AI Foundry:
 1. **Translation Agent**
 2. **PII Redaction Agent**
-
----
-
-### Provide your Foundry Project access to your Logic Apps
-By selecting the same resource group for each Logic App as your Foundry Project, Foundry should be able to see your Logic Apps without additional access. If you are having trouble please follow the steps below. It may take a few minutes for the LogicApps to appear in the Foundry Agent playground.
-
-1. For each Logic App provide access to Foundry navigate to Access Control (IAM) and under **+ Add**, select **Add Role Assignment**
-
-![Alt text](./Images/IAMrole.png)
-
-2. Select **Logic App Contributor**, then choose **Next**  
-
-![Alt text](./Images/IAMLogicAppContributor.png)
-
-3. On the Members tab under Assign access to, select **Managed Identity**, then choose **+ Select Members**. Under the Managed Identity dropdown, select Azure AI Foundry project and select the project name you have been working on.  Click the Select button at the bottom of the pane then click **Review and Assign** twice.
-
-![Alt text](./Images/IAMSelectFoundryProject.png)
-
-4. Ensure you repeat this process for both LogicApps created
 
 ---
 
