@@ -66,7 +66,7 @@ mkdir -p ragtest/input
 graphrag init --root ragtest
 
 # List files
-find  ./ragtest
+find ./ragtest
 
 ```
 
