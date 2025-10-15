@@ -189,7 +189,7 @@ more ragtest/prompts/summarize_descriptions.txt
 #### (Optionally) Reindex and rerun your queries to see how they've changed
 
 ```bash
-# Move previous index to
+# Move previous index to backup directory
 mv ragtest/output ragtest/output-default
 
 # Re-index
