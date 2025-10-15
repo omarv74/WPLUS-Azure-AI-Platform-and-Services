@@ -3,7 +3,7 @@
 ## Introduction 
 
 >**The following tasks are intended to be executed inside Cloud Shell via the Azure portal at [https://portal.azure.com](https://portal.azure.com).
->Use the credentials provided to you in the Resources tab.**
+>Use the credentials provided to you in the Resources tab. You may have to instantiate a Cloud Shell (bash) instance if using for the first time.**
 
 ### GraphRAG
 
@@ -54,18 +54,18 @@ source venv/bin/activate
 
 # Install GraphRAG
 pip install graphrag
+```
+
+## Initialize and Explore GraphRAG Workspace
+
+```bash
 
 # Initialize workspace
 mkdir -p ragtest/input
 graphrag init --root ragtest
-```
-
-## Explore Initialized Workspace
-
-```bash
 
 # List files
-find -f ./ragtest
+find  ./ragtest
 ```
 
 Expected files:
