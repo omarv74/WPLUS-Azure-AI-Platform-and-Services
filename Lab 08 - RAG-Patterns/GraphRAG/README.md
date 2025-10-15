@@ -193,7 +193,7 @@ more ragtest/prompts/summarize_descriptions.txt
 mv ragtest/output ragtest/output-default
 
 # Re-index
-graphrag index --root ./ragtest
+graphrag index --root ./ragtest --no-cache
 
 # Run a Global query
 graphrag query \
