@@ -28,14 +28,14 @@ Complete the pre-requisite instructions
 ---
 
 ## Exercise 1: Provision Azure Resources
-1. Access the Azure portal and create a Computer Vision resource. ![Alt text](./Images/create_resource.png)
+1. Access the Azure portal(portal.azure.com) and create a Computer Vision resource. ![Alt text](./Images/create_resource.png)
 2. Ensure the resource is created in a supported region. ![Alt text](./Images/create_resource_2.png)
 3. Access Vision Studio at [https://portal.vision.cognitive.azure.com/](https://portal.vision.cognitive.azure.com/) and select your resource. ![Alt text](./Images/select_resource.png)
 
 ---
 
 ## Exercise 2: Optical Character Recognition (OCR)
-1. Go to [Azure AI Vision Studio](https://portal.vision.cognitive.azure.com/), log in, and select the "Optical character recognition" tab.  ![Alt text](./Images/OCR.png)
+1. Go to [Azure AI Vision Studio](https://portal.vision.cognitive.azure.com/) - https://portal.vision.cognitive.azure.com, log in, and select the "Optical character recognition" tab.  ![Alt text](./Images/OCR.png)
 2. Click "Extract text from images."  ![Alt text](./Images/extract_text_from_images.png)
 3. Browse for a file and select your AI vision resource. ![Alt text](./Images/select_resource_azureResource.png)
 4. Review results on the “Detected attributes/JSON” tabs. ![Alt text](./Images/DetectedAttributes.png)
@@ -44,11 +44,13 @@ Complete the pre-requisite instructions
 
 ## Exercise 3: Face Analysis
 This exercise demonstrates how to use Azure AI Vision, Face to detect and analyse human faces in images. Navigate to [Azure AI | Vision Studio](https://portal.vision.cognitive.azure.com/), log in with your Azure 
-credentials, and then click on the "Face" tab. 
+credentials, and then click on the "Face" tab. Note that you may need to create a resource to access 
+![Alt text](./Images/selectfaceresource.png)
+![Alt text](./Images/labfaceresource.png)
 ![Alt text](./Images/vision1.png)
 01. Iteratively click the samples to the right of the box.  
 ![Alt text](./Images/vision2.png)
-In order to try the Face liveness detection, feature you need to apply access for the service from your subscription.  
+In order to try the Face liveness detection, feature you need to apply access for the service from your subscription. For the purpose of this lab, you may skip this but have this as an option when you work on your organizational subscription.
 
 ---
 
@@ -64,7 +66,12 @@ Navigate to [Azure AI | Vision Studio](https://portal.vision.cognitive.azure.com
 ---
 
 ## Exercise 5: Video Indexer
-1. Go to [Azure AI Video Indexer](https://www.videoindexer.ai/account/login) and log in. ![Alt text](./Images/VideoIndexer1.png)
+
+<div style="border: 1px solid #ccc; padding: 10px">
+<strong>Note:</strong> For the purpose of this lab, use the samples tab. Use the below instructions for use in your own subscription. We have not provided video for upload
+</div>
+ 
+1. Go to [Azure AI Video Indexer](https://www.videoindexer.ai/account/login) and log in. ![Alt text](./Images/VideoIndexer1.png). Use Entra ID Authentication with the provided credentials.
 2. Complete the "Use of facial identification and recognition" form and accept.![Alt text](./Images/VideoIndexer2.png)
 3. Click "Upload," then "Browse for files" to select a video.![Alt text](./Images/VideoIndexer3.png)
 4. Complete the upload form (file name, privacy, streaming quality, language, etc.).![Alt text](./Images/VideoIndexer4.png)
@@ -75,4 +82,4 @@ Navigate to [Azure AI | Vision Studio](https://portal.vision.cognitive.azure.com
 
 ---
 
-For pro-code labs, follow the instructions in the provided Jupyter notebook.
+

@@ -3,11 +3,11 @@ import pyodbc
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
+load_dotenv("../../.env")
 
-endpoint = os.getenv("ENDPOINT_URL")
-deployment = os.getenv("DEPLOYMENT_NAME")
-subscription_key = os.getenv("AZURE_OPENAI_API_KEY")
+endpoint = os.getenv("AZURE_OPENAI_EMBEDDING_ADA_ENDPOINT")
+deployment = os.getenv("EMBEDDING_ADA_MODEL_DEPLOYMENT_NAME")
+api_key = os.getenv("AZURE_OPENAI_EMBEDDING_ADA_API_KEY")
 sql_server= os.getenv("SQL_SERVER")
 sql_database = os.getenv("SQL_DATABASE")
 sql_user = os.getenv("SQL_USER")

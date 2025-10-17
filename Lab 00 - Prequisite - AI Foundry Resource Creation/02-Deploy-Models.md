@@ -9,11 +9,12 @@ In this lab we will deploy the following models
 - text-embedding-3-large
 - GPT 4o
 - GPT 4o-mini	
+- text-embedding-ada-002
 
 
 ## Estimated Time 
 
-5 minutes 
+5 - 10 minutes 
 
 ## Scenario
 You are deploying models that will be utilized later in the labs for several modules in this workshop.
@@ -61,6 +62,10 @@ No pre-requisites
 ### 5. Deploy embedding model
 
 - Similar steps above. Search **text-embedding-3-large**
+
+### 6. Deploy text-embedding-ada-002 model
+
+- Similar steps above. Search **text-embedding-ada-002**
 
 ## ✅ Completed. Verify models deployment
 

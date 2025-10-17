@@ -52,7 +52,7 @@ Setup is already done with pre-requisite AI Foundry Creation Lab. Follow the ste
     - Go to the resource group and find the storage account that was created.
     ![Go to resource](rai_md_img/storageaccount.png)
     - Access it and find the container ending in `-azureml-blobstore`.
-    - First create a new directory and name it **Contoso** in the container and upload the contents of C:\Users\Admin\Desktop\Labs\RAI
+    - First create a new directory and name it **Contoso** in the container and upload the contents of C:\Users\Admin\Desktop\LABS\Lab 07- RAI\Files\Contoso
     ![Go to resource](rai_md_img/adddirectory.png)
     <img src="rai_md_img/contoso_folder.png" alt="Contoso Folder Upload" width="25%" />
 
@@ -61,7 +61,7 @@ Setup is already done with pre-requisite AI Foundry Creation Lab. Follow the ste
     - Underneath **Hub** (*your-hub-name*), select **Connected resources**.
     - Click **New connection**.
     - Choose **Azure AI Search**.
-    - Search for the Search resource you created at the beginning of this module and select **Add Connection** from the right side.
+    - Search for the Search resource that was pre-created as part of the lab environment and select **Add Connection** from the right side.
     - Once you see the green checkmark with **Connected**, you can press **Close**.
 
 4. **Create Index**
@@ -87,9 +87,7 @@ Setup is already done with pre-requisite AI Foundry Creation Lab. Follow the ste
 1. On the left side, go to the **Protect and govern** section.
 2. Select **Evaluation**.
 3. At the top, choose **Manual evaluations**.
-
-    <img src="rai_md_img/manual_eval.png" alt="Manual Evaluation" width="80%" />
-
+ ![Go to resource](rai_md_img/manual_eval.png)
 4. Select **New Manual Evaluation**. Under Configurations, see the options.
 5. On the right, select the model you deployed (e.g., `gpt-4o`).
 6. Still on the right, click **Add your data** and select the index you just created. Note that this may take some time. Check if the index is in **ready** state and not in **running** 
@@ -204,7 +202,7 @@ Setup is already done with pre-requisite AI Foundry Creation Lab. Follow the ste
 
 ## System Message
 
-Under the Playground, go to Agents Playground by clicking on **Try the Agents Playground** The instructions below givean idea of how to provide instructions to the agent before chatting with it. Step 1-5 below are informational to give an idea of how system prompt will look like.
+Under the Playground, go to Agents Playground by clicking on **Try the Agents Playground**. When prompted to choose AOAI resource, choose the AOAI resource that is precreated that was part of the Lab VM deployment. The instructions below givean idea of how to provide instructions to the agent before chatting with it. Step 1-5 below are informational to give an idea of how system prompt will look like.
 
 **1. Define the Purpose of the AI Agent**
 

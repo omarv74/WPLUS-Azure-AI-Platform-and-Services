@@ -66,9 +66,11 @@ Complete the prerequisites Lab exercises
 - Copy corresponding string from the URI and paste into .env file as the value for MODEL_DEPLOYMENT_NAME and MODEL_API_VERSION
 ![Go to project](images/modelapikey3.png)
 
+
+
 ### 5. Set value for AZURE_OPENAI_EMBEDDING_ENDPOINT and more
 
-- Similar steps as above 
+- Similar steps as above. Follow for both text-embedding-3-large and text-embedding-ada-002 models
 - Click on embeddding model name to get details
 - As shown in the screenshot Copy Endpoint Target URI and paste into .env file as the value for AZURE_OPENAI_ENDPOINT
 - Copy Key and paste into .env file as the value for AZURE_OPENAI_EMBEDDING_API_KEY
