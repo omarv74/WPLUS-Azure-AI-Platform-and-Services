@@ -46,15 +46,22 @@ Execute files in [SQL folder](https://github.com/Azure/WPLUS-Azure-AI-Platform-a
 ---
 
 ## 4. Connect to the Server in SSMS
-1. In the **Connect to Server** dialog:
+1. In the left-most navigation blade on the SQL Server page, navigate to Security/Networking.
+2. In the 'Firewall rules' section, select 'Add your client IPv4 address'. Select Save. 
+
+
+![Add Firewall Rule](images/4a.png)
+
+
+3. In the **Connect to Server** dialog:
    - **Server type:** Database Engine  
    - **Server name:** Paste the value from Step 2.  
    - **Authentication:** SQL Server Authentication  
    - **Login:** Your SQL admin login (example: `sqladmin`)  
    - **Password:** Your admin password  
-2. Click **Connect**.
+4. Click **Connect**.
 
-![SSMS Connect to Server](images/4.png)
+![SSMS Connect to Server](images/4b.png)
 
 ---
 
@@ -118,7 +125,7 @@ Execute files in [SQL folder](https://github.com/Azure/WPLUS-Azure-AI-Platform-a
 
 ## 10. Open the Lab Folder in VS Code
 1. In VS Code, go to **File → Open Folder...**.
-2. Select the folder containing your lab files.
+2. Select the folder containing the lab files on the Desktop..
 3. Click **Select Folder**.
 
 ![VS Code Open Folder](images/10.png)
@@ -171,16 +178,12 @@ Execute files in [SQL folder](https://github.com/Azure/WPLUS-Azure-AI-Platform-a
 ---
 
 ## 16. Update the `.env` File
-1. Open `.env` in VS Code.
+1. Open `.env` in VS Code. (This file should have been renamed from .env.example - so remove the .example part if you have not already.)
 2. Populate the variables:
-   - `ENDPOINT_URL` with your Azure OpenAI endpoint
-   - `DEPLOYMENT_NAME` for your embedding model
-   - `AZURE_OPENAI_API_KEY` from Step 15
-   - SQL connection details
-   - Path to your CSV data file
-3. Adjust `BATCH_SIZE` if needed.
-
-![VS Code .env Configuration](images/16.png)
+   - `AZURE_OPENAI_EMBEDDING_ENDPOINT` with your Azure OpenAI endpoint
+   - `EMBEDDING_MODEL_DEPLOYMENT_NAME` for your embedding model.  This should be "text-embedding-ada-002" and was created in the PostgreSQL lab.  Review the steps in the PostgreSQL lab to deploy this model if you have not already.
+   - `AZURE_OPENAI_EMBEDDING_API_KEY` from Step 15
+   - `SQL_SERVER` - full URL of your Azure SQL Server
 
 ---
 

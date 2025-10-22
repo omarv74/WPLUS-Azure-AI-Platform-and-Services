@@ -41,6 +41,8 @@ Right-click the Start Menu and choose Terminal(Admin) to open up a new PowerShel
 
 ![Open Admin Terminal](images/2_OpenAdminTerminal.png)
 
+If the terminal is not current set to using PowerShell, then type in "powershell" so that you are in a PS prompt.  
+
 Enter the command below to set the PGPassword for the user that we will be using to connect to the PostgreSQL database:
 
 ```powershell
@@ -78,9 +80,9 @@ This step will restore a PostgreSQL database from a backup file on-disk.
 In the open PowerShell terminal, execute the following command.  Remember to swap the server name out so you are connecting to the server endpoint copied earlier.
 
 ```powershell
-pg_restore -h pgaivector-<server-id>.postgres.database.azure.com -U postgres -d books C:\Users\Admin\Desktop\LABS\Vector-DB\PostgreSQL\books\books
+pg_restore -h pgaivector-<server-id>.postgres.database.azure.com -U postgres -d books "C:\Users\Admin\Desktop\LABS\Lab 10 - Vector-DB\PostgreSQL\books\books"
 ```
-> Ignore any harmless errors about pre-existing objects.
+> Ignore any harmless errors/warnings about pre-existing objects or transaction_timeout.
 
 ![Restore Books Database](images/6_RestoreBooks.png)
 ---
@@ -120,7 +122,7 @@ limit 20;
 
 4. **Open the VectoryQuery.sql Script**
    - Open a new Query Tool window to establish a new connection to PostgresSQL.  
-   - Press `Ctrl+O` and open the `VectorQuery.sql` file located at C:\Users\Admin\Desktop\LABS\Vector-DB\PostgreSQL\VectoryQuery.sql
+   - Press `Ctrl+O` and open the `VectorQuery.sql` file located at C:\Users\Admin\Desktop\LABS\Lab 10 - Vector-DB\PostgreSQL\VectoryQuery.sql
 
 
 ![Open Query](images/10_VectorQueryOpen.png)
