@@ -14,28 +14,28 @@
 ### [Evaluations](../Lab%2001%20-%20AI-Foundry/Labs/Evaluations/README.md)
 
 ## Lab 02 - Agents
-[Agents Lab](../Lab%2002%20-%20Agents/README.md)
+### [Agents Lab](../Lab%2002%20-%20Agents/README.md)
 
 ## Lab 03 - AI Language
-[AI Language](../Lab%2003%20-%20AI-Language/README.md)
+### [AI Language](../Lab%2003%20-%20AI-Language/README.md)
 
 ## Lab 04 - AI Vision
-[AI Vision](../Lab%2004%20-%20AI-Vision/README.md)
+### [AI Vision](../Lab%2004%20-%20AI-Vision/README.md)
 
 ## Lab 05 - Fine Tuning
-[Fine Tuning](../Lab%2005%20-%20Fine-Tuning/README.md)
+### [Fine Tuning](../Lab%2005%20-%20Fine-Tuning/README.md)
 
 ## Lab 06 - Prompt Engineering
-[Fine Tuning](../Lab%2006%20-%20Prompt%20Engineering/README.md)
+### [Prompt Engineering](../Lab%2006%20-%20Prompt%20Engineering/README.md)
 
 ## Lab 07 - Responsible AI
-[Responsible AI](../Lab%2007-%20RAI/README.md)
+### [Responsible AI](../Lab%2007-%20RAI/README.md)
 
 ## Lab 08 - RAG Patterns
-[Graph RAG](../Lab%2008%20-%20RAG-Patterns/GraphRAG/README.md)
+### [Graph RAG](../Lab%2008%20-%20RAG-Patterns/GraphRAG/README.md)
 
 ## Lab 09 - Security
-[Graph RAG](../Lab%2009%20-%20Security/README.md)
+### [Graph RAG](../Lab%2009%20-%20Security/README.md)
 
 ## Lab 10 - Vector DB
 ### [Cosmos DB](../Lab%2010%20-%20Vector-DB/Cosmos%20DB/Readme.md)
