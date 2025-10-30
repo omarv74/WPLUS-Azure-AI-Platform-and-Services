@@ -51,7 +51,7 @@ Go to [https://portal.azure.com](https://portal.azure.com) and sign in with your
 - Choose the Subscription if not filled in automatically
 - Use the precreated resource group that is provided as part of this lab machine instance - **azureaiworkshoprg**
 ![Fill in Details](images/airg.png) 
-- Give a name for the Azure AI Foundry resource (eg ai-foundry-53439517).
+- Give a name for the Azure AI Foundry resource. Please use this name as the lab environment will not let you use another name - +++**ai-foundry-@lab.LabInstance.Id**+++ (eg ai-foundry-53439517).
 - Choose a Region (eg East US 2)
 - Give Default project name (eg deafultProject)
 - Click **Next** button. Use this as a reference image for details but choose the existing resource group and fill in the rest of the details
