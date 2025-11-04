@@ -40,11 +40,12 @@ Setup is already done with pre-requisite AI Foundry Creation Lab. Follow the ste
    - Go to [https://ai.azure.com](https://ai.azure.com/) and sign in with your Azure credentials.
    - Click **Azure AI Foundry** at the top left
    - Click Your AI Foundry
-   - Create a new hub in a region like *France Central*.
+   - Create a new hub in a region like *France Central*. Give a name for the Azure AI Foundry hub project Name. Please use this name as the lab environment will not let you use another name - +++**hubproject-@lab.LabInstance.Id**+++ (eg hubproject-53439517). 
    ![Go to resource](rai_md_img/AIfoundry.png)
    - Click on Advanced and remember to use the existing resource group pre-created for this lab VM
    ![Go to resource](rai_md_img/AdvancedOptions.png)
    ![Go to resource](rai_md_img/foundryhubproject.png)
+   Give a name for the Azure AI Foundry hub(Use Rename hun). Please use this name as the lab environment will not let you use another name - +++**hub-@lab.LabInstance.Id**+++ (eg hub-53439517). 
     - Click **Create** Ensure the hub is created successfully.
 
 2. **Upload Files**

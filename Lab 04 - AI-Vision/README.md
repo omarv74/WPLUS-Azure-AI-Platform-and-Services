@@ -29,6 +29,7 @@ Complete the pre-requisite instructions
 
 ## Exercise 1: Provision Azure Resources
 1. Access the Azure portal(portal.azure.com) and create a Computer Vision resource. ![Alt text](./Images/create_resource.png).
+Give a name for the Computer Vision resource. Please use this name as the lab environment will not let you use another name - +++**cv-@lab.LabInstance.Id**+++ (eg cv-53439517).
 2. Ensure the resource is created in a supported region. ![Alt text](./Images/create_resource_2.png)
 3. Access Vision Studio at [https://portal.vision.cognitive.azure.com/](https://portal.vision.cognitive.azure.com/) and select your resource. ![Alt text](./Images/select_resource.png)
 
