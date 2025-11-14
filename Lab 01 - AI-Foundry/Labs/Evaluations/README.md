@@ -39,7 +39,7 @@ Configure evaluation environment and test basic AI operations:
 - Verify model deployments and connectivity
 
 Key components:
-- Interactive browser credential authentication
+- Azure CLI credential authentication
 - Project client initialization with health & fitness themed examples
 - Connection validation and troubleshooting
 

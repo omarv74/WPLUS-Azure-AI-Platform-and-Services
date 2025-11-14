@@ -112,7 +112,7 @@ export AZURE_OPENAI_ENDPOINT=<instance>.openai.azure.com
 sed -i \
   -e 's/model_provider: openai/model_provider: azure/g' \
   -e 's/model: gpt-4-turbo-preview/model: gpt-4o-mini/' \
-  -e "s|# api_base: https://<instance>\.openai\.azure\.com|api_base: https://${AZURE_OPENAI_ENDPOINT}/|g" \
+  -e "s/api_base: https://<instance>\.openai\.azure\.com|api_base: https://${AZURE_OPENAI_ENDPOINT}/|g" \
   -e 's/# api_version: 2024-05-01-preview/api_version: 2024-05-01-preview/g' \
   -e 's/graphml: false/graphml: true/' \
   ragtest/settings.yaml

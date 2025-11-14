@@ -1,3 +1,5 @@
+# Azure SQL Lab
+
 ## Introduction
 This lab shows you how to use Azure SQL Database as a backend for storing and searching vector data in AI scenarios.
  
@@ -30,7 +32,7 @@ Execute files in [SQL folder](https://github.com/Azure/WPLUS-Azure-AI-Platform-a
 ---
 
 ## 2. Get the Server Name
-1. In the SQL Database overview page, note the **Server name** value (example: `sqlavector-53809613.database.windows.net`).
+1. In the SQL Database overview page, note the **Server name** value (example: **sqlavector-53809613.database.windows.net**).
 2. You will need this server name to connect from SQL Server Management Studio (SSMS).
 
 ![Azure Portal Server Name](images/2.png)

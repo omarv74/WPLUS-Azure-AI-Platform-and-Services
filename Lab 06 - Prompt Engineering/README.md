@@ -188,7 +188,7 @@ Discover techniques for creating prompts that adapt dynamically based on context
 
 1. **Setup**:
    - Ensure Azure OpenAI Service is configured in your `.env` file
-   - Open the `lab3.ipynb` notebook in Azure AI Foundry or VS Code
+   - Open the **Prompt Engineering.ipynb** notebook in Azure AI Foundry or VS Code
 
 2. **Learning Approach**:
    - Execute cells sequentially, observing examples of each technique
@@ -220,6 +220,5 @@ Upon completing this laboratory, you will be able to:
 - [Azure OpenAI Prompt Engineering Guide](https://learn.microsoft.com/azure/ai-services/openai/concepts/prompt-engineering)
 - [Advanced Prompting Techniques](https://learn.microsoft.com/azure/ai-services/openai/concepts/advanced-prompt-engineering)
 - [Azure AI Foundry Prompt Flow](https://learn.microsoft.com/azure/ai-foundry/how-to/prompt-flow)
-- [Best Practices for LLM Applications](https://learn.microsoft.com/azure/ai-services/openai/concepts/fine-tuning)
 - [Responsible AI for Prompt Engineering](https://learn.microsoft.com/azure/ai-services/responsible-use-of-ai-overview)
 

@@ -84,6 +84,7 @@ This Logic App receives text input and outputs the text with PII redacted. It cr
 5. Expand Development tools and open **Logic App Designer**. Select **Add a trigger**.
 
  ![Alt text](./Images/AddTrigger.png)
+ ![Alt text](./Images/RequestIsReceived.png)
 
 
 6. Search triggers for “When a HTTP request is received” and select it.
@@ -156,7 +157,9 @@ This Logic App receives text input and outputs the text with PII redacted. It cr
 ![Alt text](./Images/DetectPersonalInformation.png)
 
 18. Select Authentication Type as **Api Key** and add the API Key and Endpoint (Target) you saved earlier.
+![Alt text](./Images/SaveEndpointAPIKey.png)
 ![Alt text](./Images/AfterDetectPersonalInformation.png)
+
 
 19. Select the Detect Personal Information action. 
 Under Parameters, search for the Documents heading. Select **+ Add new item**.  
@@ -175,6 +178,7 @@ Insert:
     body('Parse_JSON')['description']
     ```
 ![Alt text](./Images/BodyParseJSONDesc.png)
+    Click Add
 
 21. Click the plus sign to add the final action, then **select Add an action**.
 
@@ -189,6 +193,7 @@ Insert:
     ```
     body('Detect_Personal_Information_(V3.1)')['documents'][0]['redactedText']
     ```
+    Click Add
 ![Alt text](./Images/fx.png)
 
 ![Alt text](./Images/PasteExpression.png)
@@ -221,9 +226,11 @@ Insert:
 
 This Logic App receives text, detects the language, and outputs the text in English.
 
-1. In https://portal.azure.com/, search for _Logic Apps_ and select the option. For name for the Azure Logic App resource. Please use this name as the lab environment will not let you use another name - +++**logiapp2-@lab.LabInstance.Id**+++ (eg logiapp2-53439517).
+1. In https://portal.azure.com/, search for _Logic Apps_ and select the option.
 
 ![Alt text](./Images/LogicApp.png)
+
+![Alt text](./Images/LogicAppsAdd.png)
 
 2. Click **+ Add** to add a new Logic App and choose Multi-tenant under Consumption, then click **Select**.
 3. Ensure you are selecting the same region and resource group as your Foundry project. Name your Logic App `EnglishTranslation`.
@@ -326,7 +333,7 @@ Then click **Add**
 21. Click **Save**.
 22. Click the plus sign to add the final action, then **select Add an action**.
 
-![Alt text](./Images/AddanAction.png)
+![Alt text](./Images/AddanAction2.png)
 
 23. Search for _Response_ and select the option under Request.
 
@@ -385,7 +392,7 @@ You will create **2 agents** using Azure AI Foundry:
 
 2. Put the cursor after the "Text": and then click on the _fx_ function option that appears. In the Dynamic Content box select Http_request_content then click Add. Click outside of the flow and press save. Ensure you have saved the changes to the flow. 
 
-![Alt text](./Images/ChangeInputEnglishTranslationBefore.png)
+![Alt text](./Images/ChangeInputEnglishTranslationAfter.png)
 
 3. Repeat this step for your PII Redaction flow , in edit mode click on the **Detect Personal Information (V3.1)** box and click the cross next to the dynamic input, _Body Description_ to remove it.
 
