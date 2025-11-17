@@ -28,7 +28,7 @@ Complete the pre-requisite instructions
 ---
 
 ## Exercise 1: Provision Azure Resources
-1. Access the Azure portal(portal.azure.com) and create a Computer Vision resource. ![Alt text](./Images/create_resource.png).
+1. Access the Azure portal(portal.azure.com) and create a Computer Vision resource. +++**cv-@lab.LabInstance.Id**+++ (eg cv-53439517) Ensure to use this name, you will not be able to use a different name to create the resource. The screen shot provided here is just for reference, do not use the name provided in the screenshot below ![Alt text](./Images/create_resource.png).
 2. Ensure the resource is created in a supported region. ![Alt text](./Images/create_resource_2.png)
 3. Access Vision Studio at [https://portal.vision.cognitive.azure.com/](https://portal.vision.cognitive.azure.com/) and select your resource. ![Alt text](./Images/select_resource.png)
 
@@ -44,7 +44,7 @@ Complete the pre-requisite instructions
 
 ## Exercise 3: Face Analysis
 This exercise demonstrates how to use Azure AI Vision, Face to detect and analyse human faces in images. Navigate to [Azure AI | Vision Studio](https://portal.vision.cognitive.azure.com/), log in with your Azure 
-credentials, and then click on the "Face" tab. Note that you may need to create a resource to access 
+credentials, and then click on the "Face" tab. Note that you may need to create a resource to access.Use this name for Face Vision resource. +++**faceresource-@lab.LabInstance.Id**+++ (eg faceresource-53439517).Ensure to use this name, you will not be able to use a different name to create the resource. The screen shot provided here is just for reference, do not use the name provided in the screenshot below 
 ![Alt text](./Images/selectfaceresource.png)
 ![Alt text](./Images/labfaceresource.png)
 ![Alt text](./Images/vision1.png)
