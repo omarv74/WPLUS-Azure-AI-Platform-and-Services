@@ -39,6 +39,7 @@ Complete the prerequisites Lab exercises
 - Click **Azure AI Foundry** at the top left
 - Click on the project name to go to project overview (eg firstProject). Ignore the name in the screenshot as you have created project with name **firstProject** in pre-requisite lab exercise 1
 
+
 ![Go to resource](images/gotoprojectoverview.png)
 
 
@@ -47,7 +48,7 @@ Complete the prerequisites Lab exercises
 - At  the center of the **Overview** section, you can find the Azure AI Foundry project endpoint as shown below
 - Copy and paste into .env file as the value for AI_FOUNDRY_PROJECT_ENDPOINT
 ![Go to project](images/AZURE_AI_FOUNDRY_PROJECT_ENDPOINT.png)
-- Copy and paste into .env file the project name. Project name is the last part of the endpoint string after the "/" (eg. defaultProject)
+- Copy and paste into .env file the project name. Project name is the last part of the endpoint string after the "/" (eg. firstProject)
 
 
 ### 4. Set value for AZURE_OPENAI_ENDPOINT, AZURE_OPENAI_API_KEY and more
