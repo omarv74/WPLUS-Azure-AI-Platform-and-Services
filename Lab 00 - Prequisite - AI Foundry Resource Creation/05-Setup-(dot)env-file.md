@@ -1,23 +1,27 @@
 # Setup .env file
 
-## Introduction 
+## Introduction
 
-This lab walks you through the steps to setup the .env file as a mandatory step for getting ready for executing the LAB exercises. Note that while this .env file can be setup in a code-first approach using REST API or SDKS, this LAB wants you to do the setup in an interactive way for a learning experiece. 
+This lab walks you through the steps to setup the .env file as a mandatory step for getting ready for executing the LAB exercises. Note that while this .env file can be setup in a code-first approach using REST API or SDKS, this LAB wants you to do the setup in an interactive way for a learning experiece.
 
-## Objectives 
+## Objectives
+
 In this lab we will:
--	Setup the .env file that will be leveraged to execute the lab exercises
 
+- Setup the .env file that will be leveraged to execute the lab exercises
 
-## Estimated Time 
+## Estimated Time
 
-15 minutes 
+15 minutes
 
 ## Scenario
+
 Setup the .env file that will be leveraged to execute the lab exercises as an interactive way for a learning experience
 
 ## Pre-requisites
+
 Complete the prerequisites Lab exercises
+
 - [Create Azure AI Foundry Project](01-Create-Azure-Foundry-Project.md)
 - [Deploy models into the Azure AI Foundry Project](02-Deploy-Models.md)
 - [Create connections to Bing Resources at Azure AI Foundry resource level](03-Connect-to-Bing-Resources.md)
@@ -26,12 +30,12 @@ Complete the prerequisites Lab exercises
 ## 🛠️ Tasks
 
 ### 1. Copy .env.example as .env
+
 - Find the .env.example file that is supplied as the template. You can find it in the root folder provided within the lab VM
 ![Go to resource](images/Envfile_location.png)
 - Copy .env.example to save as .env in the same folder location
 - Edit .env to provide the actual value from your environment by following the steps
 - Do not modify the section that is marked for not to modify
-
 
 ### 2. Go to the default Project
 
@@ -39,9 +43,7 @@ Complete the prerequisites Lab exercises
 - Click **Azure AI Foundry** at the top left
 - Click on the project name to go to project overview (eg firstProject). Ignore the name in the screenshot as you have created project with name **firstProject** in pre-requisite lab exercise 1
 
-
 ![Go to resource](images/gotoprojectoverview.png)
-
 
 ### 3. Set value for AI_FOUNDRY_PROJECT_ENDPOINT, AZURE_PROJECT_NAME
 
@@ -50,11 +52,10 @@ Complete the prerequisites Lab exercises
 ![Go to project](images/AZURE_AI_FOUNDRY_PROJECT_ENDPOINT.png)
 - Copy and paste into .env file the project name. Project name is the last part of the endpoint string after the "/" (eg. firstProject)
 
-
 ### 4. Set value for AZURE_OPENAI_ENDPOINT, AZURE_OPENAI_API_KEY and more
 
 - Scroll to the bottom on the left side menu
-- Click **Models + endpoints** in the My assets section 
+- Click **Models + endpoints** in the My assets section
 - You can view list of Model deployments on the right side
 - Right click on each name to open in a new browser tab and to get details
 ![Go to project](images/modelapikey1.png)
@@ -67,8 +68,6 @@ Complete the prerequisites Lab exercises
 - Copy corresponding string from the URI and paste into .env file as the value for MODEL_DEPLOYMENT_NAME and MODEL_API_VERSION
 ![Go to project](images/modelapikey3.png)
 
-
-
 ### 5. Set value for AZURE_OPENAI_EMBEDDING_ENDPOINT and more
 
 - Similar steps as above. Follow for both text-embedding-3-large and text-embedding-ada-002 models
@@ -79,7 +78,6 @@ Complete the prerequisites Lab exercises
 
 - The Endpoint Target URI is in the form of https://_AI-FOUNDRY-NAME_.cognitiveservices.azure.com/openai/deployments/_MODEL-DEPLOYMENT-NAME_/chat/completions?api-version=_MODEL-API-VERSION_
 - Copy corresponding string from the URI and paste into .env file as the value for EMBEDDING_MODEL_DEPLOYMENT_NAME and EMBEDDING_MODEL_API_VERSION
-
 
 ### 6. Set value for GROUNDING_WITH_BING_CONNECTION_NAME
 
@@ -126,7 +124,6 @@ Complete the prerequisites Lab exercises
 - Copy the key as shown in the screenshot for this Lab, and paste into .env file as the value for AZURE_AI_SEARCH_API_KEY
 ![Go to project](images/aisearchapikey.png)
 
-
 ### 9. Set value for COSMOS_ENDPOINT & COSMOS_KEY
 
 - In the top search bar, type **cosmos**
@@ -138,7 +135,6 @@ Complete the prerequisites Lab exercises
 - Toggle the eye icon at the far right of **PRIMARY KEY**, Copy the key and paste into .env file as the value for COSMOS_KEY
 ![Go to project](images/cosmos_ep_key.png)
 
-
 ### 10. Set value for SQL_SERVER
 
 - In the top search bar, type **sql**
@@ -148,9 +144,28 @@ Complete the prerequisites Lab exercises
 - Next screen, in the **Overview** section, Copy **Server Name** and paste into .env file as the value for SQL_SERVER
 ![Go to project](images/sqlserver.png)
 
+### 11. Set additional Microsoft Foundry Values (for Advance Fine-Tuning Lab)
 
+- Go to your Microsoft Foundry resource in the Azure portal
+- In the **Overview** section, copy and save the following values:
+  - Microsoft Foundry Resource Name
 
+    ![Screenshot of the Azure OpenAI resource management pane](../Lab%2005%20-%20Fine-Tuning/Advance%20Fine-Tuning/images/screenshot-foundry-overview-1.png)
 
-## ✅ Completed. 
+- Go to **Resource Management**, click **Keys and Endpoint** sub-section
+- Click **OpenAI**
+- Copy and save the following values:
+  - **Endpoint URL**.
+    - Select this endpoint URL: **Language APIs**
+
+    ![Screenshot of the Azure OpenAI resource management pane.](../Lab%2005%20-%20Fine-Tuning/Advance%20Fine-Tuning/images/screenshot-foundry-keys-and-endpoint.png)
+
+- Open the **.env** file located in the root folder.
+- Paste saved values to the variables in the file **.env**:
+  - AZURE_OPENAI_BASE_URL_ENDPOINT = "_<Foundry_Endpoint_URL>_"
+  - AI_FOUNDRY_NAME = "_<Foundry_Name>_"
+- Save the file and close it.
+
+## ✅ Completed
+
 - You should have the .env setup complete.
-
