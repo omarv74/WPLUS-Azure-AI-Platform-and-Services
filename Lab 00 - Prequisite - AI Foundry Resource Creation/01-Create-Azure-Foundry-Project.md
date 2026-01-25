@@ -1,15 +1,15 @@
-# Create Azure AI Foundry Project
+# Create Microsoft Foundry Project
 
 ## Introduction 
 
-This lab walks you through the steps to create a **Azure AI Foundry** resource using the **Azure Portal**. This is a required setup step before proceeding with lab exercises involving AI Foundry capabilities.
+This lab walks you through the steps to create a **Microsoft Foundry** resource using the **Azure Portal**. This is a required setup step before proceeding with lab exercises involving AI Foundry capabilities.
 
-### 💡 What is Azure AI Foundry
+### 💡 What is Microsoft Foundry
 Azure AI Foundry is a unified platform for building, deploying, and managing enterprise-grade AI applications and agents—combining powerful tools, models, and infrastructure with built-in governance and scalability.
 
 ## Objectives 
 In this lab we will:
-- Create Azure AI Foundry Resource and project	
+- Create Microsoft Foundry Resource and project	
 
 
 ## Estimated Time 
@@ -26,25 +26,23 @@ No pre-requisites
 
 ### 1. Sign in to Azure Portal
 
-Go to [https://portal.azure.com](https://portal.azure.com) and sign in with your Azure credentials. These credentials are present on the right hand side under resources tab for Azure AI Foundry resource.
+Go to [https://portal.azure.com](https://portal.azure.com) and sign in with your Azure credentials. These credentials are present on the right hand side under resources tab below **Azure Portal**.
 ![Azure Credentials](images/azurecredentials.png)
 
 
 
 ### 2. Search for "Azure AI Foundry"
 
-- In the top search bar, type **"Azure AI Foundry"**
-- Select **Azure AI Foundry** from the search results
+- In the top search bar, type **"Microsoft Foundry"**
+- Select **Microsoft Foundry** from the search results
 
 ![Search Azure AI Foundry](images/search_ai_foundry.png)
 
-### 3. Create "Azure AI Foundry"
+### 3. Create "Microsoft Foundry"
 
-- In the left side menu, expand **"Use with AI Foundry"**
-- Select **AI Foundry**
-- Click **+Create**
+- Under Overview, click **"Create a Foundry Resource"**
 
-![Create Azure AI Foundry](images/ai_foundry_create.png)
+![Create Microsoft Foundry](images/ai_foundry_create.png)
 
 ### 4. Fill in the details and deploy
 
@@ -68,27 +66,18 @@ Go to [https://portal.azure.com](https://portal.azure.com) and sign in with your
 ![Deploy](images/deployaifoundryresource.png)
 
 
-### 5. Verify Deployment, and Go to Azure AI Foundry portal
+### 5. Verify Deployment, and Go to Microsoft Foundry portal
 
 - Click **Go to resource**
 
 ![Go to resource](images/aifoundrydeployed.png)
   
 - Review the **Overview** details for the Azure AI Foundry resource you just created.
-- Click **Go to Azure AI Foundry Portal**
+- Click **Go to Foundry Portal**
 
 ![Go to resource](images/aifoundryportal.png)
 
 
-## ✅ Completed
 
-Now that your Azure AI Foundry resource is created, you can access it many ways:
-- Option 1: Azure Portal -> Azure AI Foundry -> AI Foundry -> Choose Your AI Foundry
-
-![Go to resource](images/aifoundryfromazureportal.png)
-
-- Option 2: Go to [https://ai.azure.com](https://ai.azure.com) -> Click **Azure AI Foundry** at the top left -> Choose Your AI Foundry
-
-![Go to resource](images/aifoundryfromaifoundryportal.png)
 
 
