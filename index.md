@@ -23,7 +23,10 @@
 ### [AI Vision](./Lab%2004%20-%20AI-Vision/README.md)
 
 ## Lab 05 - Fine Tuning
+
 ### [Fine Tuning](./Lab%2005%20-%20Fine-Tuning/README.md)
+
+### [Advanced Fine Tuning](./Lab%2005%20-%20Fine-Tuning/Advance%20Fine-Tuning/README.MD)
 
 ## Lab 06 - Prompt Engineering
 ### [Prompt Engineering](./Lab%2006%20-%20Prompt%20Engineering/README.md)
