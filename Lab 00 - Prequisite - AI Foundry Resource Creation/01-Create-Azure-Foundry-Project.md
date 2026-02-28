@@ -52,7 +52,7 @@ Go to [https://portal.azure.com](https://portal.azure.com) and sign in with your
 - Give a name for the Azure AI Foundry resource. Please use this name as the lab environment will not let you use another name - +++**ai-foundry-@lab.LabInstance.Id**+++ (eg ai-foundry-53439517).The screen shot provided here is just for reference, do not use the name provided in the screenshot below
 - Choose a Region (eg East US 2)
 
-- Use this Default project name - firstProject. The lab environment will not let you use another name (firstProject).
+- In the **Default project name** field, enter +++firstProject+++
 
 - Click **Next** button. Use this as a reference image for details but choose the existing resource group and fill in the rest of the details
 
