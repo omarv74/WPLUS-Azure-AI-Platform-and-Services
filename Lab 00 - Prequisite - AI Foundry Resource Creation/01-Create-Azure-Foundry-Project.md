@@ -33,7 +33,7 @@ Go to +++https://portal.azure.com+++ and sign in with your Azure credentials. Th
 
 ### 2. Search for "Azure AI Foundry"
 
-- In the top search bar, type **"Microsoft Foundry"**
+- In the top search bar, type +++Microsoft Foundry+++
 - Select **Microsoft Foundry** from the search results
 
 ![Search Azure AI Foundry](images/search_ai_foundry.png)
